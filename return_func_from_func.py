@@ -1,3 +1,7 @@
+#!/usr/bin/python -tt
+# -*- coding: utf-8 -*-
+from __future__ import print_function
+
 preheat_oven = lambda: print('Preheating oven')
 put_croissants_in = lambda: print('Putting croissants in')
 wait_five_minutes = lambda: print('Waiting five minutes')
