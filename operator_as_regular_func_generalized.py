@@ -22,3 +22,8 @@ res_add = chain(operator.add,
     (l_factorial, 2),
     (l_factorial, 3))
 print(res_add)
+
+res_div = chain(operator.truediv,
+    (l_factorial, 2),
+    (l_factorial, 3))
+print(res_div)
