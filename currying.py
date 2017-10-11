@@ -20,3 +20,10 @@ def curry(func):
         if len(signature(func).parameters) == 1:
             return func(arg)    # no need for curry
         return curry(partial(func, arg))
+    return inner
+
+@curry
+def curry_add(a, b, c):
+    return a + b + c
+
+print(curry_add(1)(2)(3))
