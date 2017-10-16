@@ -23,4 +23,6 @@ class Nothing:
 
 
 if __name__ == '__main__':
-    print(Just('some_python_function_name_maybe').bind(camelcase))        
+    print(Just('some_python_function_name_maybe').bind(camelcase))
+    print(Nothing().bind(camelcase))
+    print(Just(11).bind(camelcase))

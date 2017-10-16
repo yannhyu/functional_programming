@@ -7,6 +7,7 @@
 def camelcase(s):
     return ''.join([w.capitalize() for w in s.split('_')])
 
-print(camelcase('some_python_function_name'))
+if __name__ == '__main__':
+    print(camelcase('some_python_function_name'))
 
     
